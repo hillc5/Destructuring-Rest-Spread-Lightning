@@ -1,6 +1,6 @@
 ## Rest and Spread Operators, Destructuring, Default Parameters
 
-* ES6 in Depth: 
+* ES6 in Depth (blog posts): 
   * https://hacks.mozilla.org/category/es6-in-depth/
 * Exploring ES6 (book): 
   * http://exploringjs.com/es6/
