@@ -29,8 +29,8 @@ destructuring allows us to do:
 let a = [1, 2, 3];
 
 let [ first, second, third ] = a;
-
 ```
+
 
 ---
 
