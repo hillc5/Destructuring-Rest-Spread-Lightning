@@ -123,7 +123,8 @@ We can assign to object properties as well:
 let obj1 = {},
     obj2 = { a: 'a', b: 'b' },
     arr = [ 1, 2, 3 ];
-
+    
+// parens are necessary when assigning without declaration
 ({ a: obj1.a } = obj2);
 [ obj1.b ] = arr;
 
