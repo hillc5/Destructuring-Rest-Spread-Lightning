@@ -124,7 +124,7 @@ let obj1 = {},
     obj2 = { a: 'a', b: 'b' },
     arr = [ 1, 2, 3 ];
 
-{ a: obj1.a } = obj2;
+({ a: obj1.a } = obj2);
 [ obj1.b ] = arr;
 
 console.log(obj1); // { a: 'a', b: 1 }

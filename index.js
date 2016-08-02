@@ -8,7 +8,10 @@ console.log(build('Charlie', 'kick', 'spider', 'brown', 'ugly'));
 console.log(build('Charlie', 'attack', 'cake'));
 
 
-let obj = { a: 1, b: 2, c: 3 };
+let obj = { a: 1, b: 2, c: 3 },
+    obj2 = {};
+
+({ a: obj2.a, b: obj2.b } = obj);
 
 let { a: a, b: b, c: c } = obj;
 
