@@ -132,6 +132,20 @@ console.log(obj1); // { a: 'a', b: 1 }
 ```
 
 
+----
+
+
+We can also use destructuring in our function signatures
+
+```javascript
+function concatFirstAndSecond({first, second}) {
+    return `${first} ${second}`;
+}
+
+let obj = { first: 'Hello', second: 'World'};
+console.log(concatFirstAndSecond(obj)); // 'Hello World'
+```
+
 
 ----
 
